@@ -1,0 +1,76 @@
+body{
+    background-image: url(./Image/Background.jpg);
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Alkatra', cursive;
+}
+h2,p{
+    text-align: center;
+}
+input{
+    background: transparent;
+    outline: none;
+    /* border: 0; */
+}
+
+.main-box{
+    width: 500px;
+    margin: 80px auto;
+}
+.box-regestration{
+    /* margin: 10 auto; */
+    height: 500px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    font-family: 'Alkatra', cursive;
+    border: 2px solid #fff;
+}
+.block{
+    margin-left: 100px;
+    margin-top: 100px;
+    border-bottom:3px solid #f00;
+    width: 300px;
+    height: 25px;
+}
+input{
+    border: 0px;
+}
+
+.button{
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    margin: 15px;
+    margin-top: 80px;
+    margin-left: 25px;
+    font-family: 'Alkatra', cursive;
+    background: #fff;
+    color: #ff0000;
+    border: 0;
+}
+.button:hover{
+    background: rgb(255, 0, 43);
+    color:#fff;
+    transition: 0.7s;
+}
+.box-regestration:nth-child(2){
+    margin-left:470px;
+}
+
+
+input{
+    text-align: center;
+}
+
+.main-block{
+    width: 1200px;
+}
+
+.box-block{
+    background: #a49595;
+    margin-top: 40px;
+    border-radius: 20px;
+}
